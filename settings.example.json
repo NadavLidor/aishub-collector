@@ -11,5 +11,14 @@
   	"user": "YOUR_DB_USERNAME",
   	"password": "YOUR_DB_PASSWORD",
   	"db": "ais"
+  },
+  "logging": {
+    "collector_error": false,
+    "collector_summary": true,
+    "downsampler_error": false,
+    "downsampler_summary": true
+  },
+  "data_filtering": {
+    "clear_empty_imo": true
   }
 }
