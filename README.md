@@ -23,7 +23,6 @@ The collector contains three scripts:
  1. Create and edit `settings.json` based on sample `settings.sample.json`. You need to fill
     your AIShub username to the AIShub URL and enter your MySQL credentials.
  1. Create MySQL database, e.g.: `mysql -u root -p <database.sql`
- 1. Set `cron` to execute `aishub-collector.py` every ~2 minutes and `aishub-downsampler.py` as often
-    as you wish to store the data (e.g. every 24 hours).
- 1. Set `cron` to execute `aishub-stations.py` (e.g. weekly).
- 1. Profit!
+ 1. Set `launchd` to execute `aishub-collector.py` every ~10 minutes and `aishub-downsampler.py` as often
+    as you wish to store the data (e.g. every 2 hours).
+ 1. Set `launchd` to execute `aishub-stations.py` (e.g. weekly).
