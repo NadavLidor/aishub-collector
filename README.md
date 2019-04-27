@@ -1,6 +1,6 @@
 # aishub-collector
 
-AIShub collector gets data from AIShub network and stores it to the MySQL database for later use.
+AIShub collector gets data from AISHub network and stores it to the MySQL database for later use.
 The script is written in Python 3.
 
 The collector contains three scripts:
