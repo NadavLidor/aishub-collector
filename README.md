@@ -21,7 +21,7 @@ The collector contains three scripts:
 ## Install
 
  1. Create and edit `settings.json` based on sample `settings.sample.json`. You need to fill
-    your AIShub username to the AIShub URL and enter your MySQL credentials.
+    your AIShub username to the AIShub URL and enter your MySQL credentials. You can also set logging and data filtering preferences (current option: filter out vessels without an imo number.
  1. Create MySQL database, e.g.: `mysql -u root -p <database.sql`
  1. Set `launchd` to execute `aishub-collector.py` every ~10 minutes and `aishub-downsampler.py` as often
     as you wish to store the data (e.g. every 2 hours).
